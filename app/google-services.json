@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "298571349217",
+    "project_id": "masal-uygulamasi",
+    "storage_bucket": "masal-uygulamasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298571349217:android:b94e55aeda773f19ab8ba0",
+        "android_client_info": {
+          "package_name": "com.adilegungor.masaluygulama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298571349217-04e956abrvot3vendo8gslul2dlrbpm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4IUyOqY2FFWephxrmNzSFUrCzGYHlI64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298571349217-04e956abrvot3vendo8gslul2dlrbpm4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
