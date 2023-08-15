@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back01"
+    android:background="@color/purple_500"
     android:padding="20dp"
     tools:context=".MainActivity">
 
@@ -13,6 +13,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
+        android:background="#5E35B1"
         android:src="@drawable/logo" />
 
     <TextView
@@ -43,6 +44,5 @@
         android:layout_alignParentBottom="true"
         android:background="@drawable/shape_button02"
         android:text="Giriş yapmadan Devam Ediniz"
-        android:textColor="@color/white"
-/>
+        android:textColor="@color/white" />
 </RelativeLayout>

@@ -1,5 +1,6 @@
 package com.adilegungor.masaluygulama
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewbinding.ViewBinding
@@ -13,10 +14,10 @@ class MainActivity : AppCompatActivity() {
         binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.LoginBtn.setOnClickListener{
-
+startActivity(Intent(this,LoginActivity::class.java))
         }
         binding.skipBtn.setOnClickListener {
-
+startActivity(Intent(this,DashboardUserActivity::class.java))
         }
     }
 
